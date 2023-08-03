@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+  
+.h1{
+  background: linear-gradient(#EECDA3, #EF629F);
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  width: 35%;
+}
+
+.cartitas-cnt{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+}
+
+.cartitas-cnt div{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cartitas-cnt img{
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+.p{
+  position: absolute;
+  margin-top: 12px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.p-large{
+  position: absolute;
+  margin-top: 12px;
+  width: 280px;
+  height: 300px;
+  text-align: center;
+}
+
+
+audio{
+  position: absolute;
+  z-index: -100;
+}
+
+.volver{
+  position: absolute;
+  z-index: 1000000;
+  top: 1%;
+  right: 3%;
+  font-size: 30px;
+  background:  radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  padding: 10px;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.volver a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
